@@ -29,6 +29,8 @@ public class Guardian {
     @Pointcut("execution(* com.Monkey.*(..))")
     public void foundMonkey(){}
 
+
+    
     @Before("execution(* com.Monkey.*(..))")
     public void foundBefore(){
         System.out.println("【守护者】发现猴子正在进入果园...");

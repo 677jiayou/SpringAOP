@@ -13,7 +13,9 @@ public class Main {
         try {
             monkey.stealPeaches("孙大圣的大徒弟");
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+
+        }
     }
 
 }
